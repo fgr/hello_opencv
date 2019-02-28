@@ -1,0 +1,10 @@
+[requires]
+opencv/3.4.5@conan/stable
+
+[options]
+opencv:png=True
+opencv:jpeg=True
+opencv:shared=False
+
+[generators]
+cmake

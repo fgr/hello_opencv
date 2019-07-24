@@ -2,10 +2,11 @@
 #include "opencv2/opencv.hpp"
 #include <iostream>
 #include <string>
+#include <catch2/catch.hpp>
 
 int main() {
     const std::string image_file_name =
-            "/home/user/CLionProjects/hello-opencv/resources/bild1.jpg";
+            "/home/user/CLionProjects/hello_opencv/resources/bild1.jpg";
     cv::Mat image = cv::imread(image_file_name);
     if (image.empty()) {
         std::cerr << "Bild konnte nicht geladen werden: " << image_file_name

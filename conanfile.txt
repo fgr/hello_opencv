@@ -1,5 +1,7 @@
 [requires]
+Catch2/2.6.1@catchorg/stable
 opencv/3.4.5@conan/stable
+
 
 [options]
 opencv:png=True
